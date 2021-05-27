@@ -1,0 +1,405 @@
+/* ********* HELPER CLASS START **************
+******************************************* */
+.top {
+    width: 100%;
+    padding: 20px 0px;
+}
+.top h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    position: relative;
+    display: inline-block;
+}
+.top h2:after {
+    position: absolute;
+    content:'';
+    top:50%;
+    right:-65px;
+    width: 55px;
+    height: 2px;
+    background-color: #01788E;
+    transform: translateY(50%);
+}
+.top p {
+    font-size: 1.4rem;
+    margin: 8px 0px;
+}
+
+/* ********* HELPER CLASS END **************
+******************************************* */
+
+
+/* HEADER SECTION START */
+
+.header{
+    width: 100%;
+    padding: 0px 0px 20px ;
+}
+.header .hero {
+    width: 100%;
+    height: 100%;
+    padding: 180px 0px;
+    background: url(bg-image/header-dubai.jpg) 50%/cover no-repeat;
+    position: relative;
+}
+.header .hero .inner-hero {
+    width: 100%;
+    height: 100%;
+  
+}
+.header .hero .inner-hero h1 {
+    font-size: 3rem;
+    margin:0px;
+    color:#fff;
+}
+.header .hero .inner-hero p {
+    font-size: 1.6rem;
+    font-weight: 500;
+    color:#fff;
+}
+.header .finder {
+    margin:25px 0px 0px;
+}
+.header select{
+    width:auto;
+    color:#000 !important;
+    margin-bottom: 8px !important;
+    height: 45px !important;
+    border: 2px solid #DEE2E6 !important;
+    border-radius: 5px 0px 0px 5px !important;
+    font-size: 1.4rem !important;
+}
+.header select:focus{
+    outline: none;
+    box-shadow: none !important;
+    border: 2px solid #DEE2E6 !important;
+}
+.header select option {
+    font-size: 1.6rem;
+}
+.header .form-select{
+    width: 120px;
+}
+.header input {
+    width: 400px;
+    height: 45px;
+}
+.header input::placeholder {
+    font-size: 1.4rem;
+}
+.header .input-group-text {
+    text-align: center;
+    width: 50px;
+    height: 45px;
+    border-radius: 0px 5px 5px 0px;
+   
+}
+.header .hero-footer {
+    padding: 20px 0px;
+    background-color: #01788E;
+}
+.header .hero img {
+   position: absolute;
+   width:8%;
+   bottom:5%;
+   right: 28%;
+}
+.header .hero-footer ul{
+    margin:0px;
+    padding:0px;
+ }
+.header .hero-footer ul li{
+   font-size: 1.4rem;
+   color:#fff;
+}
+.header .hero-footer ul li i {
+    font-size: 1.8rem;
+    color:#fff;
+    margin-right:8px;   
+ }
+/* HEADER SECTION START */
+
+
+/* MOVING & STORAGE SECTION START */
+
+.mov-sto {
+    width:100%;
+    padding:20px 0px;
+}
+.mov-sto .slider {
+    width:100%;
+    max-height:200px;
+    overflow-x:auto;
+}
+.mov-sto .slider .iteam {
+    width:298px;
+    max-height:200px;
+}
+/* MOVING & STORAGE SECTION END */
+
+
+/* MARKET SECTION START */
+.market{
+    width: 100%;
+    padding: 60px 0px 0px;
+}
+.market img {
+    margin:12px 0px 0px;
+}
+
+.market .card-body {
+    padding: .75rem ;
+}
+.market .card-body .card-text  {
+    font-size:1.5rem;
+    padding: .25rem 0rem 1rem ;
+}
+/* MARKET SECTION END */
+
+
+
+/* HOW IT WORK SECTION START */
+
+.work{
+    width: 100%;
+}
+.work .box {
+    padding: 25px 0px;
+}
+.work .box img {
+    margin:25px 0px ;
+}
+.work .box h3, p {
+    margin:8px 0px ;
+}
+.work .box p {
+    font-size: 1.4rem;
+}
+/* HOW IT WORK SECTION END */
+
+
+
+/* COUSTOMAR REVIEW SECTION START */
+
+.review {
+    width: 100%;
+}
+.review .card {
+    margin:20px 0px;
+    padding: 20px 5px !important;
+    background-color: #F8FAFE;
+    width: auto;
+    height: 280px;
+   
+}
+.review .card .text-overflow {
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    display: -webkit-box;
+    overflow: hidden;
+}
+.review .card .text-overflow-sec {
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    display: -webkit-box;
+    overflow: hidden;
+}
+.review .card .card-title {
+    margin-top: 0rem;
+    margin-bottom: .75rem;
+    font-weight: 600 !important;
+    font-size: 1.4rem;
+}
+.review .card .card-title span:first-child {
+    font-weight: 700 !important;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+}
+.review .card .card-title span:last-child {
+    font-weight: normal;
+    font-size: 1.4rem;
+}
+.review .card .card-text > p {
+    margin: 0rem 0rem 1rem 0rem;
+    font-size: 1.4rem;
+}
+select{
+    width: auto;
+    color:#000 !important;
+    margin-bottom: 8px !important;
+    height: 50px !important;
+    border: 2px solid #DEE2E6 !important;
+    border-radius: 5px !important;
+}
+ select:focus{
+    outline: none;
+    box-shadow: none !important;
+    border: 2px solid #DEE2E6 !important;
+}
+ select option {
+    font-size: 1.6rem;
+}
+
+.review .btn-primary{
+    width: 80%;
+    padding: 12px;
+    margin-top: 25px;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-weight: 600;
+    border: transparent;
+    background-color: #00A6FF;
+}
+.review .btn-primary:hover, .btn-primary:focus {
+    width: 80%;
+    padding: 12px;
+    margin-top: 25px;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-weight: 600;
+    border: transparent;
+    outline: none;
+    box-shadow: none;
+    background-color: #00A6FF;
+}
+.review .form-select-sm {
+    font-size: 1.4rem;
+    padding:5px 15px;
+}
+.review .custom {
+    width: auto;
+    height:150px;
+    border-radius: .25rem 0rem 0rem .25rem;
+}
+.review .custom-2 {
+    width: auto;
+    height:150px;
+    min-height: auto;
+    border-radius: 0rem .25rem .25rem 0rem;
+}
+.review .custom-2 h3 {
+    margin-top:-20px;
+}
+.review .custom-2  p {
+    font-size: 1.6rem;
+}
+.review .custom-2  a {
+    font-size: 1.6rem;
+    margin: 15px 0px 0px;
+    display: inline-block;
+    color:#40444e; 
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.review .custom-2  a:hover {
+    text-decoration: underline;
+    color:#000000;
+}
+.review .custom-2 a i {
+    margin-left: 5px ;
+    font-weight: 900;
+    font-size: 1.6rem;
+}
+/* COUSTOMAR REVIEW SECTION END */
+
+
+
+/* FEATURED SECTION START */
+
+.featured {
+    width: 100%;
+}
+.featured .card {
+    padding: 20px 5px !important;
+    background-color: #F8FAFE;
+    width: auto;
+}
+.featured .card .text-primary {
+     color: #01789C!important; 
+     font-size: 1.8rem;
+}
+.featured .card .text-muted {
+    color: #6c757d!important;
+    font-size: 1.4rem;
+}
+.featured .card .c-style img {
+    position: absolute; 
+    bottom:0px;
+    right: 10px;
+}
+/* FEATURED SECTION END */
+
+
+
+/* SERVICE MARKET LOCATION START */
+
+.market-location{
+    width: 100%;
+    padding:20px 0px;
+}
+
+.market-location ul li:first-child{
+    font-size: 1.6rem;
+    font-weight: 600 !important;
+}
+.market-location ul li a{
+    font-size: 1.4rem;
+    text-decoration: none !important;
+}
+/* SERVICE MARKET LOCATION END */
+
+
+
+/* FOTER SECTION START */
+.footer {
+    width: 100%;
+    background-color:#054351;
+}
+.footer .footer-top{
+    width: 100%;
+    padding: 20px 0px;
+    background: #054351 url(bg-image/top-footer-background.jpg) 50%/cover no-repeat;
+}
+.footer ul li {
+    margin-top: 18px;
+}
+.footer ul li a {
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+.footer .c-reset ul li {
+    margin-top:2px ;
+    font-size: 1.4rem;  
+}
+.footer .c-reset ul li a {
+    margin-top:2px ;
+    font-size: 1.4rem;  
+}
+.footer .footer-bottom .card-i-reset img {
+    margin:0px 10px;
+}
+.footer .footer-bottom .social-link ul {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+.footer .footer-bottom .social-link ul li {
+    display: inline-block;
+    margin:22px 5px 10px 0px;
+    text-align: center;
+}
+.footer .footer-bottom .social-link ul li a {
+    display: inline-block;
+    font-size: 2.4rem;
+    line-height: 50px;
+    width: 50px;
+    height: 50px;
+    border-radius: 36px;
+    color:#054351;
+    background-color: #fff;
+}
+/* FOTER SECTION END */
+
+
+
